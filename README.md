@@ -1,6 +1,7 @@
 # Sudoku Solver
 Written entirely in C. Most boards are solved in milliseconds, the most <a href="https://en.wikipedia.org/wiki/Sudoku_solving_algorithms#/media/File:Sudoku_puzzle_hard_for_brute_force.svg">difficult boards</a> can be solved in under 2 seconds. 
 
+<img src = "https://i.imgur.com/OvfZKCh.gif">
 ## How to Run
 Put all the files in the same directory and run the following commands in that directory:
 ```
