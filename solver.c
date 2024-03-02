@@ -1,6 +1,5 @@
 #include "solver.h"
 #include <stdio.h>
-// gcc solver.c -o solver && ./solver 
 
 int tileValue(char board[9][9], int row, int col) {
     /* get the integer value of a tile

@@ -1,12 +1,12 @@
 # Sudoku Solver
 
 ## How to Run
-Put all the files in the same directory and run the following commands
+Put all the files in the same directory and run the following commands in that directory:
 ```
 make
 ./main
 ```
-To clear out the files you can run `make clean`. 
+For cleanup you can run `make clean`. 
 ## Algorithm Explanation
 
 This algorithm uses backtracking (brute-force) combined with bit masking. All of the relevant code can be found in `solver.c`. 
