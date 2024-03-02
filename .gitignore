@@ -1,3 +1,4 @@
 .vscode/
 main
 *.o
+.DS_Store

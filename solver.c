@@ -30,7 +30,7 @@ bool prepare(char board[9][9], int rows[9], int cols[9], int squares[9]) {
             int square = getSquare(row, col);
             int intValue = tileValue(board, row, col);
             int candidateBits = rows[row] | cols[col] | squares[square];
-            if ((candidateBits >> intValue & 1) == 1) {
+            if (intValue != -1 &&(candidateBits >> intValue & 1) == 1) {
                 return false;
             }
             if (intValue != -1) {
