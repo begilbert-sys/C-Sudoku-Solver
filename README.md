@@ -1,11 +1,15 @@
 # Sudoku Solver
 
 ## How to Run
-
+Put all the files in the same directory and run the following commands
+```
+make
+./main
+```
+To clear out the files you can run `make clean`. 
 ## Algorithm Explanation
 
-This algorithm uses backtracking (brute-force) combined with bit masking.
-
+This algorithm uses backtracking (brute-force) combined with bit masking. All of the relevant code can be found in `solver.c`. 
 ### Bit Masking
 
 As far as sudoku solvers go, this algorithm is not too crazy. But it does require that you know what bitmasking is, and how binary numbers and bitwise operators work. 
