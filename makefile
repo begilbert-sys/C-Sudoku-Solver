@@ -6,5 +6,5 @@ OBJ = main.o solver.o interface.o
 main: $(OBJ)
 	$(CC) -lcurses -o $@ $^
 clean:
-	rm -f *o
+	rm -f *.o
 	rm -f main
